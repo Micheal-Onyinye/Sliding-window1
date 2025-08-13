@@ -1,4 +1,4 @@
-## Netflix Buffer Simulator
+## Movie Buffer Simulator
     I built a tiny simulator to understand how streaming apps (like Netflix) buffer video in small chunks.
     This is a beginner-friendly version — simple and clear — so you can see the sliding-window idea in action.
 
@@ -7,8 +7,8 @@
     We load chunks until the buffer is full, then play the first chunk and repeat — sliding the buffer forward as we go.
 
 ## Files
-    neflix_buffer.py — the Python script.
-    netflix_buffer_run.py - the python script to run
+    movie_buffer.py — the Python script.
+    movie_buffer_run.py - the python script to run
 
 ## How it uses the sliding window idea
     1. The buffer (a range of chunk indices) is our sliding window.
@@ -24,7 +24,7 @@
 
 ## Quick start (run locally)
      **in your terminal
-    python netflix_buffer_run.py
+    python movie_buffer_run.py
 ## Example output
     This is what you should see when you run the script with video_chunks = [1,2,3,4,5] and buffer_size = 2:
 
